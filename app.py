@@ -54,13 +54,26 @@ class QuizApp(object):
         '''
 
         print(f"Evaluasi {self.title} - {self.chapter} ke {self.no}")
-        input("Tekan {ENTER} apabila Anda sudah siap >>>")
+        input("Tekan {ENTER} apabila Anda sudah siap >>> ")
 
         random_data = random.sample(self.Data, num_question_to_display)
 
         for i in range(len(random_data)):
+            print("\n")
             print(f"[Soal: {i + 1}]")
             print(f"{random_data[i].question}")
+
+            for a in range(len(random_data[i].answers)):
+                print(f"\t[{a + 1}] {random_data[i].answers[a]}")
+
+            print("\n")
+            answer = int(input("Jawaban Anda>> "))
+            answer_key = random_data[i].answer_key
+
+            if answer == answer_key:
+                print("Jawaban kamu tepat!")
+            else:
+                print(f"Jawaban kamu salah, yang benar: '{random_data[i].answers[answer_key]}'")
 
 
 # https://stackoverflow.com/questions/9271464/what-does-the-file-variable-mean-do
