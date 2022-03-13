@@ -57,6 +57,7 @@ class QuizApp(object):
         input("Tekan {ENTER} apabila Anda sudah siap >>> ")
 
         random_data = random.sample(self.Data, num_question_to_display)
+        score = 0
 
         for i in range(len(random_data)):
             print("\n")
@@ -72,8 +73,15 @@ class QuizApp(object):
 
             if answer == answer_key:
                 print("Jawaban kamu tepat!")
+                score += 2
             else:
                 print(f"Jawaban kamu salah, yang benar: '{random_data[i].answers[answer_key]}'")
+                score += 1
+
+        print("")
+        print("--------------------")
+        print("Evaluasi selesai:")
+        print(f"Hasil evaluasi kamu: {score}")
 
 
 # https://stackoverflow.com/questions/9271464/what-does-the-file-variable-mean-do
