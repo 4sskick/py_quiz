@@ -69,20 +69,21 @@ class QuizApp(object):
 
             print("\n")
             answer = int(input("Jawaban Anda>> "))
-            answer_key = random_data[i].answer_key
+            answer_key = random_data[i].answer_key + 1
 
             if answer == answer_key:
                 print("Jawaban kamu tepat!")
                 score += 2
             else:
-                print(f"Jawaban kamu salah, yang benar: '{random_data[i].answers[answer_key]}'")
+                print(f"Jawaban kamu salah, yang benar: '{random_data[i].answers[answer_key - 1]}'")
                 score += 1
 
         print("")
         print("--------------------")
         print("Evaluasi selesai:")
-        print(f"Hasil evaluasi kamu: {score}")
+        print(
+            f"Skor evaluasi kamu: {score}: {(score / (num_question_to_display * 2)) * 100} %")
 
 
 # https://stackoverflow.com/questions/9271464/what-does-the-file-variable-mean-do
-QuizApp(os.path.dirname(__file__) + '/question.json').start(3)
+QuizApp(os.path.dirname(__file__) + '/question.json').start(2)
