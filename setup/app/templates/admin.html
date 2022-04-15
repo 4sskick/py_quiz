@@ -1,2 +1,12 @@
 <h1>Hello there!</h1>
-this gonna be an admin where all questions would be displayed
+this gonna be a where evaluation begin from user
+
+{% for q in questions %}
+    <h3> {{ q.id }}.  {{ q.question }}</h3>
+    a. {{ q.option1 }}<br><br>
+    b. {{ q.option2 }}<br><br>
+    c. {{ q.option3 }}<br><br>
+    d. {{ q.option4 }}<br><br>
+
+
+{% endfor %}

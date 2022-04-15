@@ -2,11 +2,11 @@
 this gonna be a where evaluation begin from user
 
 {% for q in questions %}
-    <h3> {{ q.id }}.  {{ q.question }}</h3>
-    <input type = "radio" name = "q{{ q.id }}" value = "a" id = "q1a">   a. {{ q.option1 }}<br><br>
-    <input type = "radio" name = "q{{ q.id }}" value = "b" id = "q1b">   b. {{ q.option2 }}<br><br>
-    <input type = "radio" name = "q{{ q.id }}" value = "c" id = "q1c">   c. {{ q.option3 }}<br><br>
-    <input type = "radio" name = "q{{ q.id }}" value = "d" id = "q1d">   d. {{ q.option4 }}<br><br>
+    <h3> {{ q.1 }}.  {{ q.0.question }}</h3>
+    <input type = "radio" name = "q{{ q.0.id }}" value = "a" id = "q1a">   a. {{ q.0.option1 }}<br><br>
+    <input type = "radio" name = "q{{ q.0.id }}" value = "b" id = "q1b">   b. {{ q.0.option2 }}<br><br>
+    <input type = "radio" name = "q{{ q.0.id }}" value = "c" id = "q1c">   c. {{ q.0.option3 }}<br><br>
+    <input type = "radio" name = "q{{ q.0.id }}" value = "d" id = "q1d">   d. {{ q.0.option4 }}<br><br>
 
 
 {% endfor %}
