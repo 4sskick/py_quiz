@@ -10,3 +10,4 @@
 |5	    |Run project app	                |python manage.py runserver <port server>   |
 |6	    |Done define models	                |python manage.py makemigrations <appname>  |
 |6.1	    |Done define models	                |python manage.py migrate|
+|7	    |Create super user or Admin	                |python manage.py createsuperuser|
