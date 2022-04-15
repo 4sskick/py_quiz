@@ -11,6 +11,7 @@ def index(request):
 
 
 def quiz(request):
+    # querying data model which already filled by data
     questions = Quiz.objects.all()
 
     # would randomize data questions
