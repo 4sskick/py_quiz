@@ -1,4 +1,4 @@
-#_py_quiz HSI
+# HSI py Quiz
 
 |Step	|Description	                    |Command                                    |
 |-------|-----------------------------------|-------------------------------------------|
@@ -11,3 +11,5 @@
 |6	    |Done define models	                |python manage.py makemigrations <appname>  |
 |6.1	    |Done define models	                |python manage.py migrate|
 |7	    |Create super user or Admin	                |python manage.py createsuperuser|
+
+*nb: monta || 123456

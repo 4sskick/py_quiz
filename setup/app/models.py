@@ -11,9 +11,10 @@ class Quiz(models.Model):
     answer = models.CharField(max_length=100)
 
     def __str__(self):
-        return f'Quiz(question={self.question}, option1={self.option1}, option2={self.option2}, option3={self.option3}, option4={self.option4}, answer={self.answer})'
+        return self.question
 
     def __repr__(self):
-        return super().__str__()
+        return f'Quiz(question={self.question}, option1={self.option1}, option2={self.option2}, option3={self.option3}, option4={self.option4}, answer={self.answer})'
+
 
 
