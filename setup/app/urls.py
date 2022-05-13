@@ -4,6 +4,6 @@ from . import views as appViews
 
 urlpatterns = [
     url(r'^$', appViews.index),
-    url(r'^questions/', appViews.quiz),
-    url(r'^administrator/', appViews.admin)
+    url(r'^pesertahsi/', appViews.quiz),
+    url(r'^adminhsi/', appViews.admin)
 ]

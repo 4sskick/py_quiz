@@ -1,0 +1,57 @@
+{
+  "chapter": "Al Qawaidul Arba",
+  "title": "Evaluasi Mingguan",
+  "no": "3",
+  "data": [
+    {
+      "question": "Mana yang tidak termasuk pada hal yang wajib untuk diketahui berdasarkan penjelasan Syaikh Muhammad bin Abdul Wahhab?",
+      "answers": [
+        "Penciptaan manusia tidak sia-sia",
+        "Allah tidak ridho disekutukan",
+        "Tidak bermuwalah dengan orang yang memusuhi Allah",
+        "Wajibnya ilmu sebelum amal"
+      ],
+      "answer_key": 3
+    },
+    {
+      "question": "Salah satu dari empat hal yang wajib untuk dipelajari oleh seorang muslim adalah bersabar. Mana dari jawaban berikut ini yang bukan bagian dari bersabar yang dijelaskan penulis?",
+      "answers": [
+        "Bertakwa",
+        "Berilmu",
+        "Berdakwah",
+        "Beramal"
+      ],
+      "answer_key": 0
+    },
+    {
+      "question": "Mana makna kata wajib yang benar?",
+      "answers": [
+        "Apabila dikerjakan mendapatkan pahala, jika ditinggalkan tidak berdosa",
+        "Apabila dikerjakan mendapatkan pahala, jika ditinggalkan berdosa",
+        "Apabila ditinggalkan mendapatkan pahala, jika dikerjakan tidak berdosa",
+        "Apabila ditinggalkan mendapatkan pahala, jika dikerjakan berdosa"
+      ],
+      "answer_key": 1
+    },
+    {
+      "question": "Apa yang dimaksud dengan manusia tidak diciptakan dengan sia-sia yang disebut dalam halaqah?",
+      "answers": [
+        "Manusia diturunkan ke bumi sebagai khalifah",
+        "Manusia diberikan ambisi yang akan dipenuhinya",
+        "Tidak ada bagian dari penciptaan manusia yang tidak memiliki hikmah",
+        "Manusia dibiarkan tinggal di bumi dengan tujuan agar beribadah kepada Allah"
+      ],
+      "answer_key": 3
+    },
+    {
+      "question": "Apa makna huruf ba di dalam kalimat basmalah?",
+      "answers": [
+        "Isti'adzah",
+        "Tasbih",
+        "Isti'anah",
+        "Dzikir"
+      ],
+      "answer_key": 2
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+/* CSS Reset */
+* {
+  margin: 0;
+}
+
+/* Body */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+}
+
+/* Header */
+.header {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.header .left {
+  float: left;
+}
+
+.header .left h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.header .left p {
+  color: #858280;
+  font-size: 1rem;
+  font-weight: 550;
+  text-transform: uppercase;
+}
+
+.header .right {
+  float: right;
+}
+
+/* Main */
+.main {
+  width: 90%;
+  margin: 0.5rem auto 0;
+}
+
+.main .card {
+  background-color: #fff;
+  height: 76vh;
+  padding: 1rem 2.5rem;
+  border: 0.5px solid #fefefe;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.main .card .title h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.main .card table thead th,
+.main .card table tfoot td {
+  background-color: #586490;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.main .card table tbody td {
+  font-size: 0.8rem;
+  font-weight: 550;
+}
+
+.main .card table tfoot td {
+  font-weight: bold;
+}

@@ -1,12 +1,59 @@
-<h1>Hello there!</h1>
-this gonna be a where evaluation begin from user
+{% load static %}
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Halaman Admin</title>
+        <link rel="stylesheet" href={% static '/css/styles.admin.css' %} />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+    </head>
 
-{% for q in questions %}
-    <h3> {{ q.id }}.  {{ q.question }}</h3>
-    a. {{ q.option1 }}<br><br>
-    b. {{ q.option2 }}<br><br>
-    c. {{ q.option3 }}<br><br>
-    d. {{ q.option4 }}<br><br>
+    <body>
+        <header id="header" class="header">
+            <div class="left">
+                <h1>HALAMAN ADMIN</h1>
+            </div>
+            <div class="right">
+                <img src="https://idn-static-assets.s3-ap-southeast-1.amazonaws.com/school/10070.png" alt="" width="60"/>
+            </div>
+        </header>
+        <main id="main" class="main">
+            <div class="card">
+                <div class="title">
+                    <h4>Daftar Pertanyaan, Pilihan Ganda, dan Kunci Jawaban Evaluasi Harian HSI</h4>
+                </div>
 
+                <div class="table">
+                    <table border="1" cellpadding="4" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th width="50%">Soal</th>
+                            <th width="25%">Pilihan Ganda</th>
+                            <th width="25%">Kunci Jawaban</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for q in questions %}
+                        <tr>
+                            <td align="center"><h3> {{ forloop.counter }}</h3></td>
+                            <td>{{ q.question }}</td>
+                            <td>
+                            {% for p in q.answers %}
 
-{% endfor %}
+                                {{ p }}<br/>
+
+                            {% endfor %}
+                            </td>
+                            <td>{{ q.answer_key }}</td>
+                        </tr>
+                        {% endfor %}
+
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

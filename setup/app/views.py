@@ -1,9 +1,22 @@
+import json
+import os
 import random
+from collections import namedtuple
 
 from django.shortcuts import render
 
 # Create your views here.
 from .models import Quiz
+
+
+def __load_questions():
+    question_data = namedtuple('question_data', 'question, answers, answer_key')
+    with open(os.path.dirname(__file__)+'/data/question.json', 'r') as file:
+        quiz_json = json.load(file)
+
+        questions = [question_data(**ind) for ind in quiz_json['data']]
+
+    return questions
 
 
 def index(request):
@@ -23,6 +36,12 @@ def quiz(request):
 
 
 def admin(request):
-    questions = Quiz.objects.all()
+    # questions = Quiz.objects.all()
+    questions = __load_questions()
 
-    return render(request, 'admin.html', {'questions': questions})
+    dict = {
+        'questions': questions,
+        'type_of': type(questions)
+    }
+
+    return render(request, 'admin.html', dict)
