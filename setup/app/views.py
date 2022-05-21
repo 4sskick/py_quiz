@@ -42,6 +42,9 @@ def __load_questions():
             ))
 
             questions.append({
+                "detail_no": quiz_json['no'],
+                "detail_chapter": quiz_json['chapter'],
+                "detail_title": quiz_json['title'],
                 "question": item['question'],
                 "readable_answer_key": answerKey
             })
@@ -55,23 +58,31 @@ def index(request):
 
 def quiz(request):
     # querying data model which already filled by data
-    questions = Quiz.objects.all()
+    # questions = Quiz.objects.all()
+    questions = __load_questions()
 
     # would randomize data questions
-    num_question = [1, 2]
-    random_data = random.sample(list(questions), len(num_question))
-    q_data = zip(random_data, num_question)
 
-    return render(request, 'quiz.html', {'questions': q_data})
+    questions = random.sample(list(questions), 2)
+    for item in questions:
+        random.shuffle(item['readable_answer_key'])
+
+    random.shuffle(questions)
+
+    data = {
+        'questions': questions
+    }
+
+    return render(request, 'quiz.html', data)
 
 
 def admin(request):
     # questions = Quiz.objects.all()
     questions = __load_questions()
 
-    dict = {
+    data = {
         'questions': questions,
         'type_of': type(questions)
     }
 
-    return render(request, 'admin.html', dict)
+    return render(request, 'admin.html', data)
