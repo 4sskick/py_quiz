@@ -56,7 +56,7 @@ def index(request):
     return render(request, 'index.html')
 
 
-def quiz(request):
+def serve_evaluation(request):
     # querying data model which already filled by data
     # questions = Quiz.objects.all()
     questions = __load_questions()
@@ -76,7 +76,7 @@ def quiz(request):
     return render(request, 'quiz.html', data)
 
 
-def admin(request):
+def serve_admin(request):
     # questions = Quiz.objects.all()
     questions = __load_questions()
 
