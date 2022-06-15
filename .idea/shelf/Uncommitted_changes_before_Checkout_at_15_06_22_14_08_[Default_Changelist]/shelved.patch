@@ -1,0 +1,165 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"Python 3.7 (quiz)\" project-jdk-type=\"Python SDK\" />\n  <component name=\"PyCharmProfessionalAdvertiser\">\n    <option name=\"shown\" value=\"true\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 5515439e892334337d4461dab3ff4357a0f768c2)
++++ b/.idea/misc.xml	(date 1655276658475)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (quiz)" project-jdk-type="Python SDK" />
++  <component name="ProjectRootManager" version="2" project-jdk-name="Pipenv (py_quiz)" project-jdk-type="Python SDK" />
+   <component name="PyCharmProfessionalAdvertiser">
+     <option name="shown" value="true" />
+   </component>
+Index: .idea/quiz.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<module type=\"PYTHON_MODULE\" version=\"4\">\n  <component name=\"NewModuleRootManager\">\n    <content url=\"file://$MODULE_DIR$\" />\n    <orderEntry type=\"inheritedJdk\" />\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\n    <orderEntry type=\"library\" name=\"R User Library\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"R Skeletons\" level=\"application\" />\n  </component>\n  <component name=\"TestRunnerService\">\n    <option name=\"PROJECT_TEST_RUNNER\" value=\"Unittests\" />\n  </component>\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/quiz.iml b/.idea/quiz.iml
+--- a/.idea/quiz.iml	(revision 5515439e892334337d4461dab3ff4357a0f768c2)
++++ b/.idea/quiz.iml	(date 1655276658403)
+@@ -2,10 +2,13 @@
+ <module type="PYTHON_MODULE" version="4">
+   <component name="NewModuleRootManager">
+     <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="inheritedJdk" />
++    <orderEntry type="jdk" jdkName="Pipenv (py_quiz)" jdkType="Python SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+     <orderEntry type="library" name="R User Library" level="project" />
+     <orderEntry type="library" name="R Skeletons" level="application" />
++  </component>
++  <component name="PackageRequirementsSettings">
++    <option name="requirementsPath" value="" />
+   </component>
+   <component name="TestRunnerService">
+     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"920bb7ce-c172-499d-bb27-51104d99a428\" name=\"Default Changelist\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/quiz.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/quiz.iml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/README.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/README.md\" afterDir=\"false\" />\n    </list>\n    <option name=\"EXCLUDED_CONVERTED_TO_IGNORED\" value=\"true\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileEditorManager\">\n    <leaf SIDE_TABS_SIZE_LIMIT_KEY=\"300\">\n      <file pinned=\"false\" current-in-tab=\"true\">\n        <entry file=\"file://$PROJECT_DIR$/README.md\">\n          <provider selected=\"true\" editor-type-id=\"split-provider[text-editor;markdown-preview-editor]\">\n            <state split_layout=\"SPLIT\">\n              <first_editor relative-caret-position=\"136\">\n                <caret line=\"8\" column=\"85\" selection-start-line=\"8\" selection-start-column=\"85\" selection-end-line=\"8\" selection-end-column=\"85\" />\n              </first_editor>\n              <second_editor />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/Pipfile\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"204\">\n              <caret line=\"12\" selection-start-line=\"12\" selection-end-line=\"12\" />\n            </state>\n          </provider>\n        </entry>\n      </file>\n    </leaf>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Python Script\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"FindInProjectRecents\">\n    <findStrings>\n      <find>&quot;query&quot;</find>\n      <find>&quot;choices&quot;</find>\n      <find>&quot;answer&quot;</find>\n      <find>data_question</find>\n    </findStrings>\n    <replaceStrings>\n      <replace>&quot;question&quot;</replace>\n      <replace>&quot;answers&quot;</replace>\n      <replace>&quot;answer_key&quot;</replace>\n      <replace>data_item</replace>\n    </replaceStrings>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"IdeDocumentHistory\">\n    <option name=\"CHANGED_PATHS\">\n      <list>\n        <option value=\"$PROJECT_DIR$/.gitignore\" />\n        <option value=\"$PROJECT_DIR$/question.json\" />\n        <option value=\"$PROJECT_DIR$/app.py\" />\n        <option value=\"$PROJECT_DIR$/README.md\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"ProjectFrameBounds\" extendedState=\"6\">\n    <option name=\"x\" value=\"260\" />\n    <option name=\"y\" value=\"20\" />\n    <option name=\"width\" value=\"1400\" />\n    <option name=\"height\" value=\"1000\" />\n  </component>\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectView\">\n    <navigator proportions=\"\" version=\"1\">\n      <foldersAlwaysOnTop value=\"true\" />\n    </navigator>\n    <panes>\n      <pane id=\"ProjectPane\">\n        <subPane>\n          <expand>\n            <path>\n              <item name=\"quiz\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"quiz\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"quiz\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"quiz\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"setup\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"quiz\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"quiz\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"setup\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"app\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"quiz\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"quiz\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"setup\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"setup\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n          </expand>\n          <select />\n        </subPane>\n      </pane>\n      <pane id=\"Scope\" />\n    </panes>\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"add_unversioned_files\" value=\"$PROJECT_DIR$/.gitignore\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable\" />\n  </component>\n  <component name=\"PyConsoleOptionsProvider\">\n    <option name=\"myPythonConsoleState\">\n      <console-settings module-name=\"quiz\" is-module-sdk=\"true\">\n        <option name=\"myUseModuleSdk\" value=\"true\" />\n        <option name=\"myModuleName\" value=\"quiz\" />\n      </console-settings>\n    </option>\n  </component>\n  <component name=\"RunDashboard\">\n    <option name=\"ruleStates\">\n      <list>\n        <RuleState>\n          <option name=\"name\" value=\"ConfigurationTypeDashboardGroupingRule\" />\n        </RuleState>\n        <RuleState>\n          <option name=\"name\" value=\"StatusDashboardGroupingRule\" />\n        </RuleState>\n      </list>\n    </option>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"app\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\">\n      <module name=\"quiz\" />\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <envs>\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\n      </envs>\n      <option name=\"SDK_HOME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/app.py\" />\n      <option name=\"PARAMETERS\" value=\"\" />\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\n      <option name=\"MODULE_MODE\" value=\"false\" />\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\n      <option name=\"INPUT_FILE\" value=\"\" />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Python.app\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"920bb7ce-c172-499d-bb27-51104d99a428\" name=\"Default Changelist\" comment=\"\" />\n      <created>1647175761645</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1647175761645</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"ToolWindowManager\">\n    <frame x=\"-8\" y=\"-8\" width=\"1936\" height=\"1056\" extended-state=\"6\" />\n    <editor active=\"true\" />\n    <layout>\n      <window_info active=\"true\" content_ui=\"combo\" id=\"Project\" order=\"0\" visible=\"true\" weight=\"0.12899786\" />\n      <window_info id=\"Structure\" order=\"1\" side_tool=\"true\" weight=\"0.25\" />\n      <window_info id=\"Favorites\" order=\"2\" side_tool=\"true\" />\n      <window_info anchor=\"bottom\" id=\"Message\" order=\"0\" />\n      <window_info anchor=\"bottom\" id=\"Find\" order=\"1\" />\n      <window_info anchor=\"bottom\" id=\"Run\" order=\"2\" weight=\"0.32936078\" />\n      <window_info anchor=\"bottom\" id=\"Debug\" order=\"3\" weight=\"0.4\" />\n      <window_info anchor=\"bottom\" id=\"Cvs\" order=\"4\" weight=\"0.25\" />\n      <window_info anchor=\"bottom\" id=\"Inspection\" order=\"5\" weight=\"0.4\" />\n      <window_info anchor=\"bottom\" id=\"TODO\" order=\"6\" />\n      <window_info anchor=\"bottom\" id=\"Version Control\" order=\"7\" />\n      <window_info anchor=\"bottom\" id=\"Terminal\" order=\"8\" />\n      <window_info anchor=\"bottom\" id=\"Event Log\" order=\"9\" side_tool=\"true\" />\n      <window_info anchor=\"bottom\" id=\"Python Console\" order=\"10\" />\n      <window_info anchor=\"right\" id=\"Commander\" internal_type=\"SLIDING\" order=\"0\" type=\"SLIDING\" weight=\"0.4\" />\n      <window_info anchor=\"right\" id=\"Ant Build\" order=\"1\" weight=\"0.25\" />\n      <window_info anchor=\"right\" content_ui=\"combo\" id=\"Hierarchy\" order=\"2\" weight=\"0.25\" />\n      <window_info anchor=\"right\" id=\"R Graphics\" order=\"3\" />\n      <window_info anchor=\"right\" id=\"R Packages\" order=\"4\" />\n    </layout>\n  </component>\n  <component name=\"editorHistoryManager\">\n    <entry file=\"file://$PROJECT_DIR$/venv/pyvenv.cfg\" />\n    <entry file=\"file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/collections/__init__.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"198\">\n          <caret line=\"360\" selection-start-line=\"360\" selection-end-line=\"360\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/app.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"416\">\n          <caret line=\"67\" column=\"65\" selection-start-line=\"67\" selection-start-column=\"65\" selection-end-line=\"67\" selection-end-column=\"65\" />\n          <folding>\n            <element signature=\"e#0#11#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/question.json\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"34\">\n          <caret line=\"2\" column=\"29\" selection-start-line=\"2\" selection-start-column=\"29\" selection-end-line=\"2\" selection-end-column=\"29\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/setup/settings.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"-255\" />\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/setup/urls.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\" />\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/manage.py\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"153\">\n          <caret line=\"10\" column=\"61\" selection-start-line=\"10\" selection-start-column=\"61\" selection-end-line=\"10\" selection-end-column=\"61\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/Pipfile\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"204\">\n          <caret line=\"12\" selection-start-line=\"12\" selection-end-line=\"12\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/.gitignore\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"17\">\n          <caret line=\"1\" selection-start-line=\"1\" selection-end-line=\"1\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/README.md\">\n      <provider selected=\"true\" editor-type-id=\"split-provider[text-editor;markdown-preview-editor]\">\n        <state split_layout=\"SPLIT\">\n          <first_editor relative-caret-position=\"136\">\n            <caret line=\"8\" column=\"85\" selection-start-line=\"8\" selection-start-column=\"85\" selection-end-line=\"8\" selection-end-column=\"85\" />\n          </first_editor>\n          <second_editor />\n        </state>\n      </provider>\n    </entry>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 5515439e892334337d4461dab3ff4357a0f768c2)
++++ b/.idea/workspace.xml	(date 1655276658439)
+@@ -1,41 +1,17 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+     <list default="true" id="920bb7ce-c172-499d-bb27-51104d99a428" name="Default Changelist" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/quiz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/quiz.iml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+     </list>
+-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="FileEditorManager">
+-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+-      <file pinned="false" current-in-tab="true">
+-        <entry file="file://$PROJECT_DIR$/README.md">
+-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+-            <state split_layout="SPLIT">
+-              <first_editor relative-caret-position="136">
+-                <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
+-              </first_editor>
+-              <second_editor />
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/Pipfile">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="204">
+-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-    </leaf>
+   </component>
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+@@ -70,6 +46,9 @@
+         <option value="$PROJECT_DIR$/README.md" />
+       </list>
+     </option>
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
+   </component>
+   <component name="ProjectFrameBounds" extendedState="6">
+     <option name="x" value="260" />
+@@ -77,6 +56,7 @@
+     <option name="width" value="1400" />
+     <option name="height" value="1000" />
+   </component>
++  <component name="ProjectId" id="2AbMiNBLHZjPSaNB5jW8EE2WSzz" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectView">
+     <navigator proportions="" version="1">
+@@ -114,12 +94,16 @@
+       <pane id="Scope" />
+     </panes>
+   </component>
+-  <component name="PropertiesComponent">
+-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+-    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
+   </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "last_opened_file_path": "/home/monta/Project/personal/web/py_quiz",
++    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
++  }
++}]]></component>
+   <component name="PyConsoleOptionsProvider">
+     <option name="myPythonConsoleState">
+       <console-settings module-name="quiz" is-module-sdk="true">
+@@ -128,18 +112,6 @@
+       </console-settings>
+     </option>
+   </component>
+-  <component name="RunDashboard">
+-    <option name="ruleStates">
+-      <list>
+-        <RuleState>
+-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+-        </RuleState>
+-        <RuleState>
+-          <option name="name" value="StatusDashboardGroupingRule" />
+-        </RuleState>
+-      </list>
+-    </option>
+-  </component>
+   <component name="RunManager">
+     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+       <module name="quiz" />
+@@ -168,6 +140,7 @@
+       </list>
+     </recent_temporary>
+   </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="SvnConfiguration">
+     <configuration />
+   </component>

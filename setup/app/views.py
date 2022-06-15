@@ -52,6 +52,13 @@ def __load_questions():
     return questions
 
 
+def __enumarate(arrData):
+    for i in range(len(arrData)):
+        arrData[i]['no'] = i + 1
+
+    return arrData
+
+
 def index(request):
     return render(request, 'index.html')
 
@@ -66,8 +73,10 @@ def serve_evaluation(request):
     questions = random.sample(list(questions), 2)
     for item in questions:
         random.shuffle(item['readable_answer_key'])
+        item['readable_answer_key'] = __enumarate(item['readable_answer_key'])
 
     random.shuffle(questions)
+    questions = __enumarate(questions)
 
     data = {
         'questions': questions
